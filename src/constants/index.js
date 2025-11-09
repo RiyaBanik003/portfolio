@@ -18,6 +18,7 @@ import {
     pricewise,
     react,
     tailwindcss,
+    threads,
     twitter
     
     
@@ -133,20 +134,14 @@ export const socialLinks = [
 
 export const projects = [
     
+    
     {
-        iconUrl: pricewise,
-        theme: 'btn-back-red',
-        name: 'Employee Task Manager',
-        description: 'Developed a web application where employers can login and add tasks to the employees.',
-        link: 'https://github.com/RiyaBanik003/employee-task-manager',
+        iconUrl: threads,
+        theme: 'btn-back-green',
+        name: 'Full Stack Anonymous Feedback App',
+        description: 'a full-stack web app allowing users to receive anonymous messages via unique shareable profile links.',
+        link: 'https://anonymous-messages-app.vercel.app/',
     },
-    // {
-    //     iconUrl: threads,
-    //     theme: 'btn-back-green',
-    //     name: 'Full Stack Threads Clone',
-    //     description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    //     link: 'https://github.com/adrianhajdin/threads',
-    // },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
@@ -162,11 +157,11 @@ export const projects = [
     //     link: 'https://github.com/adrianhajdin/social_media_app',
     // },
     {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Password Generator',
-        description: 'Developed a web application that will generate unique passwords according to your length.',
-        link: 'https://github.com/RiyaBanik003/password-generator',
+        iconUrl: pricewise,
+        theme: 'btn-back-red',
+        name: 'Employee Task Manager',
+        description: 'Developed a web application where employers can login and add tasks to the employees.',
+        link: 'https://github.com/RiyaBanik003/employee-task-manager',
     },
     // {
     //     iconUrl: summiz,
